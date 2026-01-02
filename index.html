@@ -43,28 +43,31 @@
     <main>
         <h1>Home</h1>
 
-        <section>
-            <h2>About Me</h2>
-            <p>
-                Rony Reyes is a software developer and community-focused professional based in Mission, British
-                Columbia, Canada.
-                Originally from Guatemala, he has experience supporting newcomers through settlement services and
-                educational mentoring,
-                and has worked with diverse communities, including teaching English to newcomers. Married and
-                family-oriented, Rony enjoys
-                warm weather, spending time with his loved ones, and playing sports such as surfing, soccer, and
-                volleyball. He is also
-                actively learning web technologies, building projects on GitHub, and sharing knowledge with learners
-                through mentorship and volunteer initiatives.
-            </p>
-        </section>
+        <div class="top-sections">
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    Rony Reyes is a software developer and community-focused professional based in Mission, British
+                    Columbia, Canada.
+                    Originally from Guatemala, he has experience supporting newcomers through settlement services and
+                    educational mentoring,
+                    and has worked with diverse communities, including teaching English to newcomers. Married and
+                    family-oriented, Rony enjoys
+                    warm weather, spending time with his loved ones, and playing sports such as surfing, soccer, and
+                    volleyball. He is also
+                    actively learning web technologies, building projects on GitHub, and sharing knowledge with learners
+                    through mentorship
+                    and volunteer initiatives.
+                </p>
+            </section>
 
-        <section>
-            <h2>Student Photo</h2>
-            <img src="images/profile.jpg" alt="Photo of Rony Reyes">
-        </section>
+            <section class="student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/profile.jpg" alt="Photo of Rony Reyes">
+            </section>
+        </div>
 
-        <section>
+        <section class="courses">
             <h2>Web Certificate Courses</h2>
 
             <div class="filters">
@@ -72,10 +75,12 @@
                 <button id="wdd">WDD</button>
                 <button id="cse">CSE</button>
             </div>
+
+            <div id="courses"></div>
+
             <p class="credits">
                 Total Credits: <span id="totalCredits"></span>
             </p>
-            <div id="courses"></div>
         </section>
     </main>
 

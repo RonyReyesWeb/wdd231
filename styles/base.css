@@ -109,3 +109,64 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+/* aqui empeze agregar test */
+/* MAIN LAYOUT */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Top sections stack by default (mobile) */
+.top-sections {
+    display: block;
+}
+
+/* Section styling */
+main section {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    color: #3D405B;
+    margin-bottom: 0.5rem;
+}
+
+.about-me p {
+    line-height: 1.6;
+}
+
+.student-photo img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filters button {
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    background-color: #3D405B;
+    color: white;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #E07A5F;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}

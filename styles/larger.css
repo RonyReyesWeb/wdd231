@@ -28,4 +28,24 @@
     .navigation a {
         border: none;
     }
+
+    /* aqui empeze agregar test */
+    .top-sections {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+d
+    .courses {
+        margin-top: 2rem;
+    }
+
+    #courses {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .filters {
+        max-width: 400px;
+    }
 }
