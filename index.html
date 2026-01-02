@@ -3,50 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Rony Reyes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First page WDD 231</title>
+    <title>WDD 231 | Home</title>
 
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="images/code.jpg" alt="site logo" width="200" height="200">
-        <span>Rony's Site </span>
-        <button id="ham-btn" class="hamburger"></button>
+        <img src="images/github.svg" alt="Site logo">
+        <span>Rony Reyes</span>
+        <button id="ham-btn" aria-label="Menu"></button>
     </header>
-    <nav id="nav-bar" class="navigation">
+
+    <nav id="nav-bar">
         <ul>
-            <li><a href="#">News & Events</a></li>
-            <li class="current"><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
         </ul>
     </nav>
+
     <main>
-        <h1>Dedicated Temples</h1>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is Rony Reyes. I am a permanent resident of Canada and currently
+                studying web development. I enjoy learning frontend technologies and
+                helping others in my community.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Photo of Rony Reyes">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p class="credits">
+                Total Credits: <span id="totalCredits"></span>
+            </p>
+        </section>
     </main>
+
     <footer>
         <div class="social">
-            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank"><img src="images/linkedin.svg"
-                    alt="linked in" width="16" height="16"></a>
-            <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank"><img src="images/facebook.svg"
-                    alt="facebook" width="16" height="16"></a>
-            <a href="https://github.com/RonyReyesWeb" target="_blank"><img src="images/github.svg" alt="github"
-                    width="16" height="16"></a>
-            <a href="https://www.apple.com/" target="_blank"><img src="images/apple.svg" alt="Apple" width="16"
-                    height="16"></a>
+            <a href="https://github.com/RonyReyesWeb" target="_blank">
+                <img src="images/github.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
         </div>
-        <p>Copyright symbol and current year</p>
-        <p>Last Modified</p>
+
+        <p>
+            &copy;<span id="currentyear"></span> ❖ Rony Reyes ❖ British Columbia, Canada
+        </p>
+
+        <p id="lastModified"></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 
 </html>
