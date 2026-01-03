@@ -30,22 +30,13 @@
     }
 
     /* aqui empeze agregar test */
-    .top-sections {
+    .section-main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-        align-items: start;
-    }
-d
-    .courses {
-        margin-top: 2rem;
+        gap: 1.5rem;
     }
 
-    #courses {
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    }
-
-    .filters {
-        max-width: 400px;
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
