@@ -120,23 +120,17 @@ main {
 h1 {
     font-size: 1.5rem;
     color: #3D405B;
-    margin-left: 10px;
 }
 
-.section-main {
-    display: block;
-}
-
-.card {
+.section {
     background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #aaa;
-    margin: .75rem 10px;
+    border-radius: 8px;
+    margin: 8px;
     overflow: hidden;
     text-align: center;
 }
 
-.card h2 {
+.section h2 {
     background-color: #3D405B;
     color: #fff;
     font-weight: 400;
@@ -145,9 +139,9 @@ h1 {
     padding: .6rem;
 }
 
-.card p {
+.section p {
     margin: 1rem;
-    line-height: 1.6;
+    line-height: auto;
 }
 
 .student-photo img {
