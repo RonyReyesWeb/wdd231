@@ -24,7 +24,7 @@ header span {
 /* HAMBURGER NAVIGATION */
 
 .hamburger {
-    background-color: none;
+    background-color: transparent;
     border: none;
     color: #3D405B;
     cursor: pointer;
@@ -138,7 +138,7 @@ main {
 
 .section p {
     margin: 1rem;
-    line-height: auto;
+    line-height: 1.5;
 }
 
 
