@@ -144,28 +144,28 @@ h1 {
     line-height: auto;
 }
 
-.student-photo img {
-    display: block;
+
+.profile-img {
     max-width: 250px;
+    max-height: 280px;
     width: 100%;
-    margin: 1rem auto;
-    border-radius: 6px;
+    height: auto;
+    object-fit: cover;
 }
 
 
 .filters {
-    display: flex;
-    justify-content: center;
-    gap: .5rem;
-    margin: 1rem 0;
+    margin: 20px;
 }
 
 .filters button {
-    padding: .75rem;
-    border-radius: 10px;
-    border: 1px solid #999;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
     cursor: pointer;
-    background-color: #F4F1DE;
+    background-color: #3D405B;
+    color: white;
+    font-size: 12px;
 }
 
 .filters button:hover {
@@ -175,6 +175,4 @@ h1 {
 .course-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: .75rem;
-    margin: 1rem;
 }

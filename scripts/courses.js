@@ -25,7 +25,7 @@ function displayCourses(list) {
         }
 
         div.innerHTML = `
-            <h3>${course.subject} ${course.number}</h3>
+            <p>${course.subject} ${course.number}</p>
         `;
 
         courseContainer.appendChild(div);
