@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Isopan Bakery",
+            "address": "Villa Hermosa I, San Miguel Petapa, Guatemala",
+            "phone": "+502 4456 7890",
+            "website": "https://www.panaderiaisopan.com",
+            "image": "bakery.jpg",
+            "membership": 2,
+            "description": "A local bakery offering fresh bread and pastries to the community."
+        },
+        {
+            "name": "Novex Hardware Store",
+            "address": "Main Boulevard, Villa Hermosa II, Guatemala",
+            "phone": "+502 3345 1122",
+            "website": "https://www.novex.com.gt",
+            "image": "hardware.jpg",
+            "membership": 3,
+            "description": "Hardware and construction materials for home and business projects."
+        },
+        {
+            "name": "Taller Mecanico Repair",
+            "address": "Zone 7, Villa Hermosa, Guatemala",
+            "phone": "+502 5567 3344",
+            "website": "https://mecanicosguatemala.com/",
+            "image": "autorepair.jpg",
+            "membership": 1,
+            "description": "Reliable auto repair services for all types of vehicles."
+        },
+        {
+            "name": "Costo Pharmacy",
+            "address": "Villa Hermosa Shopping Center, Guatemala",
+            "phone": "+502 2234 5566",
+            "website": "https://farmacosto.com/",
+            "image": "pharmacy.jpg",
+            "membership": 2,
+            "description": "Pharmacy providing medications and personal health services."
+        },
+        {
+            "name": "Cebollines Dinner",
+            "address": "Villa Hermosa III, Guatemala",
+            "phone": "+502 4987 6655",
+            "website": "https://cebollines.gt",
+            "image": "diner.jpg",
+            "membership": 1,
+            "description": "Traditional Guatemalan meals served in a family-friendly environment."
+        },
+        {
+            "name": "Petapa Electronics",
+            "address": "Central Avenue, Villa Hermosa, Guatemala",
+            "phone": "+502 6677 8899",
+            "website": "https://www.ferreteriapetapaweb.com/electricidad",
+            "image": "electronics.jpg",
+            "membership": 3,
+            "description": "Sales and repair of household electronics and appliances."
+        },
+        {
+            "name": "Villa Hermosa Learning Center",
+            "address": "Zone 11, San Miguel Petapa, Guatemala",
+            "phone": "+502 7788 9900",
+            "website": "https://munisanmiguelpetapa.gob.gt",
+            "image": "education.jpg",
+            "membership": 2,
+            "description": "Educational support and tutoring services for students."
+        }
+    ]
+}
