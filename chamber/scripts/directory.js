@@ -67,13 +67,11 @@ const gridBtn = document.getElementById("grid-btn");
 const listBtn = document.getElementById("list-btn");
 
 gridBtn.addEventListener("click", () => {
-    membersContainer.style.display = "grid";
-    membersContainer.style.gridTemplateColumns = "repeat(auto-fit, minmax(250px, 1fr))";
+    membersContainer.classList.remove("list-view"); // grid = default
 });
 
 listBtn.addEventListener("click", () => {
-    membersContainer.style.display = "grid";
-    membersContainer.style.gridTemplateColumns = "1fr";
+    membersContainer.classList.add("list-view"); // list mode
 });
 
 // Run on page load
