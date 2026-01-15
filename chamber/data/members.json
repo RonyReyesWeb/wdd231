@@ -5,7 +5,7 @@
             "address": "Villa Hermosa I, San Miguel Petapa, Guatemala",
             "phone": "+502 4456 7890",
             "website": "https://www.panaderiaisopan.com",
-            "image": "bakery.jpg",
+            "image": "bakery.svg",
             "membership": 2,
             "description": "A local bakery offering fresh bread and pastries to the community."
         },
@@ -14,7 +14,7 @@
             "address": "Main Boulevard, Villa Hermosa II, Guatemala",
             "phone": "+502 3345 1122",
             "website": "https://www.novex.com.gt",
-            "image": "hardware.jpg",
+            "image": "hardware.svg",
             "membership": 3,
             "description": "Hardware and construction materials for home and business projects."
         },
@@ -23,7 +23,7 @@
             "address": "Zone 7, Villa Hermosa, Guatemala",
             "phone": "+502 5567 3344",
             "website": "https://mecanicosguatemala.com/",
-            "image": "autorepair.jpg",
+            "image": "autorepair.svg",
             "membership": 1,
             "description": "Reliable auto repair services for all types of vehicles."
         },
@@ -32,7 +32,7 @@
             "address": "Villa Hermosa Shopping Center, Guatemala",
             "phone": "+502 2234 5566",
             "website": "https://farmacosto.com/",
-            "image": "pharmacy.jpg",
+            "image": "pharmacy.svg",
             "membership": 2,
             "description": "Pharmacy providing medications and personal health services."
         },
@@ -41,7 +41,7 @@
             "address": "Villa Hermosa III, Guatemala",
             "phone": "+502 4987 6655",
             "website": "https://cebollines.gt",
-            "image": "diner.jpg",
+            "image": "diner.svg",
             "membership": 1,
             "description": "Traditional Guatemalan meals served in a family-friendly environment."
         },
@@ -50,7 +50,7 @@
             "address": "Central Avenue, Villa Hermosa, Guatemala",
             "phone": "+502 6677 8899",
             "website": "https://www.ferreteriapetapaweb.com/electricidad",
-            "image": "electronics.jpg",
+            "image": "electronics.svg",
             "membership": 3,
             "description": "Sales and repair of household electronics and appliances."
         },
@@ -59,7 +59,7 @@
             "address": "Zone 11, San Miguel Petapa, Guatemala",
             "phone": "+502 7788 9900",
             "website": "https://munisanmiguelpetapa.gob.gt",
-            "image": "education.jpg",
+            "image": "education.svg",
             "membership": 2,
             "description": "Educational support and tutoring services for students."
         }

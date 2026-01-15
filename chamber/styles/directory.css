@@ -115,3 +115,55 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+/* cards for the companies */
+
+/* Card styling */
+.member-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Top of the card */
+.member-card h2 {
+    margin: 0 0 0.5rem 0;
+    color: #3D405B;
+}
+
+.member-card .phone {
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+}
+
+/* Flex container: image left, info right */
+.member-card .card-content {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+/* Image box */
+.member-card .card-content img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Info box */
+.member-card .card-content .info {
+    flex: 1;
+}
+
+/* Optional: links styling */
+.member-card .card-content .info a {
+    color: #E07A5F;
+    text-decoration: none;
+}
+
+.member-card .card-content .info a:hover {
+    text-decoration: underline;
+}
