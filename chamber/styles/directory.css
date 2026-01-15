@@ -145,6 +145,7 @@ footer p {
     flex-wrap: wrap;
 }
 
+/* Combine image + info styles under .card-content */
 .member-card .card-content img {
     max-width: 100px;
     height: auto;
@@ -152,26 +153,14 @@ footer p {
     flex-shrink: 0;
 }
 
-.member-card .info {
+.member-card .card-content .info {
     flex: 1 1 0;
+    /* merged previous two rules */
     min-width: 0;
     word-wrap: break-word;
 }
 
-/* Image box */
-.member-card .card-content img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-/* Info box */
-.member-card .card-content .info {
-    flex: 1;
-}
-
-/* Optional: links styling */
+/* Links inside info */
 .member-card .card-content .info a {
     color: #1a3ddb;
     text-decoration: none;
@@ -221,4 +210,9 @@ div.weather p {
     margin: 0.2rem 0;
     font-size: 0.85rem;
     color: var(--color-accent);
+}
+
+.weatherimg {
+    max-width: 50px;
+    max-height: 50px;
 }
