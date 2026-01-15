@@ -18,9 +18,9 @@ const membersContainer = document.querySelector("#members-container");
 
 // Fetch data
 async function getMembers() {
-    const response = await fetch("data/members.json"); // <-- make sure this path matches your folder
+    const response = await fetch("data/members.json");
     const data = await response.json();
-    console.log(data); // This will let you check if it is being fetched
+    console.log(data);
     displayMembers(data.companies);
 }
 
