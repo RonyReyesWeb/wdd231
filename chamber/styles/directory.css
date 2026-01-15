@@ -1,11 +1,3 @@
-.top-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    border-bottom: solid 1px #ddd;
-}
-
 /* HEADER */
 header {
     display: grid;
@@ -121,31 +113,30 @@ footer p {
 /* Card styling */
 .member-card {
     border: 1px solid #ddd;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 10px;
+    margin: 10px 2px;
     background-color: #f9f9f9;
     border-radius: 8px;
 }
 
 .member-card h2 {
     margin: 0 0 0.5rem 0;
-    color: #3D405B;
+    text-align: center;
 }
 
 .member-card .phone {
     margin: 0 0 1rem 0;
-    font-weight: bold;
+    text-align: center;
 }
 
 .member-card .card-content {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
-/* Combine image + info styles under .card-content */
 .member-card .card-content img {
+    padding-top: 25px;
     max-width: 100px;
     height: auto;
     border-radius: 4px;
@@ -154,7 +145,6 @@ footer p {
 
 .member-card .card-content .info {
     flex: 1 1 0;
-    /* merged previous two rules */
     min-width: 0;
     word-wrap: break-word;
 }
@@ -183,33 +173,23 @@ footer p {
 
 
 .eventsmain {
-    margin: 0.5rem 1px;
+    margin-bottom: 1.5rem;
+
 }
 
-.eventsmain>div {
+.eventsmain div {
     background-color: #f9f9f9;
     border: 1px solid #e8ebea;
     border-radius: 8px;
     overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .eventsmain h2 {
-    background-color: #f0eeee;
+    text-align: center;
 }
 
-div.events p {
-    margin: 0.75rem 10px;
-}
-
-div.weather div {
-    display: flex;
-}
-
-div.weather p {
-    margin: 0.2rem 0;
-    font-size: 0.85rem;
-    color: var(--color-accent);
-}
 
 .weatherimg {
     max-width: 50px;

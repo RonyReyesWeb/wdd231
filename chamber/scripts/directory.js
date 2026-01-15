@@ -40,9 +40,9 @@ function displayMembers(companies) {
             <div class="card-content">
                 <img src="images/${company.image}" alt="${company.name}">
                 <div class="info">
-                    <p><strong>Website:</strong> <a href="${company.website}" target="_blank">${company.website}</a></p>
-                    <p><strong>Address:</strong> ${company.address}</p>
-                    <p><strong>Membership:</strong> ${membershipLevel(company.membership)}</p>
+                    <p>Website: <a href="${company.website}" target="_blank">${company.website}</a></p>
+                    <p>Address: ${company.address}</p>
+                    <p>Membership: ${membershipLevel(company.membership)}</p>
                 </div>
             </div>
         `;

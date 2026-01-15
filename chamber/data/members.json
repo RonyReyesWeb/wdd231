@@ -10,15 +10,6 @@
             "description": "A local bakery offering fresh bread and pastries to the community."
         },
         {
-            "name": "Novex Hardware Store",
-            "address": "Main Boulevard, Villa Hermosa II, Guatemala",
-            "phone": "+502 3345 1122",
-            "website": "https://www.novex.com.gt",
-            "image": "hardware.svg",
-            "membership": 3,
-            "description": "Hardware and construction materials for home and business projects."
-        },
-        {
             "name": "Taller Mecanico Repair",
             "address": "Zone 7, Villa Hermosa, Guatemala",
             "phone": "+502 5567 3344",
@@ -26,15 +17,6 @@
             "image": "autorepair.svg",
             "membership": 1,
             "description": "Reliable auto repair services for all types of vehicles."
-        },
-        {
-            "name": "Costo Pharmacy",
-            "address": "Villa Hermosa Shopping Center, Guatemala",
-            "phone": "+502 2234 5566",
-            "website": "https://farmacosto.com/",
-            "image": "pharmacy.svg",
-            "membership": 2,
-            "description": "Pharmacy providing medications and personal health services."
         },
         {
             "name": "Cebollines Dinner",
@@ -62,6 +44,24 @@
             "image": "education.svg",
             "membership": 2,
             "description": "Educational support and tutoring services for students."
+        },
+        {
+            "name": "Novex Hardware Store",
+            "address": "Main Boulevard, Villa Hermosa II, Guatemala",
+            "phone": "+502 3345 1122",
+            "website": "https://www.novex.com.gt",
+            "image": "hardware.svg",
+            "membership": 3,
+            "description": "Hardware and construction materials for home and business projects."
+        },
+        {
+            "name": "Costo Pharmacy",
+            "address": "Villa Hermosa Shopping Center, Guatemala",
+            "phone": "+502 2234 5566",
+            "website": "https://farmacosto.com/",
+            "image": "pharmacy.svg",
+            "membership": 2,
+            "description": "Pharmacy providing medications and personal health services."
         }
     ]
 }
