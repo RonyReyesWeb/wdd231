@@ -7,8 +7,7 @@
         content="WDD 231 course home page showcasing the chamber of commerce created for the project">
     <meta name="author" content="Rony Reyes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 course home page showcasing the chamber of commerce created for the project targeting the city of
-        Villa Hermosa, Guatemala</title>
+    <title>Villa Hermosa Chamber of Commerce</title>
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
@@ -53,34 +52,37 @@
     </nav>
 
     <main>
-        <section class="hero">
+        <div class="hero">
             <img src="images/hero.jpg" alt="Villa Hermosa City View">
-        </section>
+        </div>
+        <h1>Home</h1>
 
+        <section class="eventsmain">
+            <!-- aqui va uno -->
+            <div class="events">
+                <!-- aqui va uno -->
+                <h2>Events</h2>
+                <p>Tuesday 10:00am: Workshop for Small Businesses</p>
+                <p>Wednesday 5:00pm: Youth Soccer Tournament at Central Park</p>
+                <p>Thursday 8:00am: Farmers’ Market at Villa Hermosa Plaza</p>
+                <p>Saturday 9:00am: Charity Run for Villa Hermosa Schools</p>
+            </div>
 
-        <section>
-            <h1>Home</h1>
-            <h2>Events</h2>
-            <p>Tuesday 10:00am: Workshop for Small Businesses</p>
-            <p>Wednesday 5:00pm: Youth Soccer Tournament at Central Park</p>
-            <p>Thursday 8:00am: Farmers’ Market at Villa Hermosa Plaza</p>
-            <p>Saturday 9:00am: Charity Run for Villa Hermosa Schools</p>
-        </section>
+            <div>
+                <h2>Current Weather</h2>
+                <img src="images/weather.svg" alt="Weather in Guatemala City" loading="lazy"
+                    style=" width: 30px; height: 30px" ;>
+                <p>Condition: A few clouds</p>
+                <p>Temperature: ~24°C (75°F)</p>
+                <p>Humidity: Moderate</p>
+            </div>
 
-        <section>
-            <h2>Current Weather</h2>
-            <img src="images/weather.svg" alt="Weather in Guatemala City" loading="lazy"
-                style=" width: 30px; height: 30px" ;>
-            <p>Condition: A few clouds</p>
-            <p>Temperature: ~24°C (75°F)</p>
-            <p>Humidity: Moderate</p>
-        </section>
-
-        <section>
-            <h2>Weather Forecast</h2>
-            <p>Wednesday: ~24°C</p>
-            <p>Thursday: ~22°C</p>
-            <p>Friday: ~22°C</p>
+            <div>
+                <h2>Weather Forecast</h2>
+                <p>Wednesday: ~24°C</p>
+                <p>Thursday: ~22°C</p>
+                <p>Friday: ~22°C</p>
+            </div>
         </section>
 
         <div class="view-toggle">
@@ -92,13 +94,14 @@
     </main>
 
     <footer>
-        <div>
+        <section class="address">
+            <!-- aqui va uno -->
             <p>Villa Hermosa Chamber of Commerce</p>
             <p>Lote 31 A, Manzana H, Sector 4 Villa Hermosa 1</p>
             <p>San Miguel Petapa, Guatemala</p>
             <p>(502) 5028-1329</p>
-        </div>
-        <div class="social">
+        </section>
+        <section class="social">
             <a href="https://www.linkedin.com/in/RonyReyes" target="_blank" aria-label="LinkedIn profile">
                 <img src="images/linkedin.svg" alt="linkedin" width="16" height="16">
             </a>
@@ -108,14 +111,14 @@
             <a href="https://github.com/RonyReyesWeb" target="_blank" aria-label="github profile">
                 <img src="images/github.svg" alt="github" width="16" height="16">
             </a>
-        </div>
-        <div>
+        </section>
+        <section class="project">
+            <!-- aqui va uno -->
             <p>WDD231 Class Project</p>
             <p>Rony Reyes</p>
             <p>&copy; <span id="currentyear"></span> ❖ Villa Hermosa Chamber of Commerce</p>
             <p id="lastModified"></p>
-        </div>
-
+        </section>
     </footer>
 </body>
 
