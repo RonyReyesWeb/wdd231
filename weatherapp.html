@@ -1,11 +1,35 @@
-<h1>OpenWeatherMap.org API Test</h1>
-<main>
-  <p>The current temperature in Trier, Germany is <span id="current-temp"></span></p>
-  <figure>
-    <img id="weather-icon" src="" alt="">
-    <figcaption></figcaption>
-  </figure>
-</main>
-<footer>
-  [Enter Your Name Here] | OpenWeatherMap.org | CC BY-SA 4.0
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is an exercise about weather Fetch API">
+    <meta name="author" content="Rony Reyes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Weather Data</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/weatherapp.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <div class="card">
+            <h2 id="town"></h2>
+            <img id="graphic" src="" alt="">
+            <p id="description"></p>
+            <p id="temperature"></p>
+        </div>
+    </main>
+    <script src="scripts/weatherapp.js"></script>
+    <footer>
+        Rony Daniel Reyes Lopez | OpenWeatherMap.org | CC BY-SA 4.0
+    </footer>
+</body>
