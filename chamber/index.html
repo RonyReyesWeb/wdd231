@@ -9,29 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Villa Hermosa Chamber of Commerce </title>
 
-    <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 
-    <!-- Facebook Meta Tags -->
     <meta property="og:title" content="WDD 231 | Rony Reyes – Chambers of Commerce Villa Hermosa">
     <meta property="og:description"
         content="It is a page created to showcase the business and their information in our city to make it accesible for everyone">
     <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/images/profile.jpg">
     <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <!-- JavaScript -->
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js"></script>
+
 
 </head>
 
@@ -44,7 +41,7 @@
 
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="directory.html" class="active">Home</a></li>
+            <li class="current"><a href="index.html" class="active">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="directory.html">Join</a></li>
             <li><a href="directory.html">Discover</a></li>
@@ -54,19 +51,26 @@
     <main>
         <div class="hero">
             <img src="images/hero.jpg" alt="Villa Hermosa City View">
-            <a href="join.html" class="cta-btn">Join the Chamber</a>
+            <a href="index.html" class="cta-btn">Join the Chamber</a>
         </div>
         <h1>Home</h1>
 
         <section class="eventsmain">
-            <div>
+            <div class="card">
+                <h2 id="town"></h2>
+                <img id="graphic" src="" alt="">
+                <p id="description"></p>
+                <p id="temperature"></p>
+            </div>
+            <!-- <div>
                 <h2>Events</h2>
                 <p>Tuesday 10:00am: Workshop for Small Businesses</p>
                 <p>Wednesday 5:00pm: Youth Soccer Tournament at Central Park</p>
                 <p>Thursday 8:00am: Farmers’ Market at Villa Hermosa Plaza</p>
                 <p>Saturday 9:00am: Charity Run for Villa Hermosa Schools</p>
-            </div>
+            </div> -->
 
+            <!-- Connecting the current weather to js -->
             <div>
                 <h2>Current Weather</h2>
                 <img src="images/weather.svg" alt="Weather in Guatemala City" class="weatherimg">
@@ -77,18 +81,17 @@
 
             <div>
                 <h2>Weather Forecast</h2>
-                <p>Wednesday: ~24°C</p>
-                <p>Thursday: ~22°C</p>
-                <p>Friday: ~22°C</p>
+                <p><strong><span id="day1-name"></span>:</strong> <span id="day1-temp"></span>°C</p>
+                <p><strong><span id="day2-name"></span>:</strong> <span id="day2-temp"></span>°C</p>
+                <p><strong><span id="day3-name"></span>:</strong> <span id="day3-temp"></span>°C</p>
             </div>
         </section>
 
-        <div class="view-toggle">
-            <button id="grid-btn">Grid View</button>
-            <button id="list-btn">List View</button>
-        </div>
-
-        <section id="members-container"></section>
+        <!-- Connecting the current directory to js but making it modules -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
     </main>
 
     <footer>
