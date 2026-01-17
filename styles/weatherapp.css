@@ -1,0 +1,44 @@
+body {
+    max-width: 900px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h1 {
+    background-color: #eee;
+    padding: 2.3rem 10px;
+    text-align: center;
+}
+
+
+footer {
+    margin-left: 14px;
+    margin-right: 14px;
+    background-color: #eee;
+    padding: 2.3rem 10px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    background-color: #ebdcdc;
+    padding: 10px;
+
+}
+
+.card h2 {
+    color: #292bac;
+}
+
+.card #description,
+#temperature {
+    color: #292bac;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
