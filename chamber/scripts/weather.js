@@ -75,7 +75,7 @@ async function getForecast() {
 
 function displayForecast(data) {
     // Pick roughly midday for next 3 days: indices 8, 16, 24 (3-hour intervals)
-    const dayIndexes = [8, 16, 24, 32]; // roughly midday for next 3 days
+    const dayIndexes = [8, 16, 24, 32, 39]; 
 
     dayIndexes.forEach((idx, i) => {
         const forecast = data.list[idx];

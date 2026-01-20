@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/weather.js" defer></script>
-
+    <script src="scripts/spotlights.js" defer></script>
 
 </head>
 
@@ -55,28 +55,22 @@
         <h1>Home</h1>
 
         <section class="eventsmain">
-            <div class="card">
-                <h2 id="town"></h2>
-                <img id="graphic" src="" alt="">
-                <p><strong>Condition:</strong> <span id="description"></span></p>
-                <p><strong>Temperature:</strong> <span id="temperature"></span></p>
-                <p><strong>Humidity:</strong> <span id="humidity"></span></p>
-            </div>
-            <!-- <div>
+            <div>
                 <h2>Events</h2>
                 <p>Tuesday 10:00am: Workshop for Small Businesses</p>
                 <p>Wednesday 5:00pm: Youth Soccer Tournament at Central Park</p>
                 <p>Thursday 8:00am: Farmers’ Market at Villa Hermosa Plaza</p>
                 <p>Saturday 9:00am: Charity Run for Villa Hermosa Schools</p>
-            </div> -->
+                <p>Sunday 4:00pm: Cultural Festival at Villa Hermosa Plaza</p>
+            </div>
 
             <!-- Connecting the current weather to js -->
             <div>
-                <h2>Current Weather</h2>
-                <img src="images/weather.svg" alt="Weather in Guatemala City" class="weatherimg">
-                <p>Condition: A few clouds</p>
-                <p>Temperature: ~24°C (75°F)</p>
-                <p>Humidity: Moderate</p>
+                <h2 id="town"></h2>
+                <img id="graphic" src="" alt="" class="weatherimg">
+                <p><strong>Condition:</strong> <span id="description"></span></p>
+                <p><strong>Temperature:</strong> <span id="temperature"></span></p>
+                <p><strong>Humidity:</strong> <span id="humidity"></span></p>
             </div>
 
             <div>
@@ -85,6 +79,8 @@
                 <p><strong><span id="day2-name"></span>:</strong> <span id="day2-temp"></span></p>
                 <p><strong><span id="day3-name"></span>:</strong> <span id="day3-temp"></span></p>
                 <p><strong><span id="day4-name"></span>:</strong> <span id="day4-temp"></span></p>
+                <p><strong><span id="day5-name"></span>:</strong> <span id="day5-temp"></span></p>
+
             </div>
         </section>
 
