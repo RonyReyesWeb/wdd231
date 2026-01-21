@@ -166,6 +166,17 @@ footer p {
     display: block;
 }
 
+.hero a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 100px;
+    text-align: center;
+    color: #3D405B;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: #e3e0e0;
+}
 
 .eventsmain {
     margin-bottom: 1.5rem;
