@@ -251,3 +251,20 @@ footer p {
 .navigation a:hover {
     background-color: #d8d7d7;
 }
+
+/* Styling the dialog */
+#openButton {
+    background-color: #d8d7d7;
+}
+
+#dialogBox {
+    background-color: #a4d5ac;
+}
+
+#closeButton {
+    background-color: #d8d7d7;
+}
+
+::backdrop {
+    background-color: white;
+}
