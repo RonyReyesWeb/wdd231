@@ -9,7 +9,7 @@ const forecastContainer = document.getElementById('forecast-container');
 const myKey = "da842027fc309ca7e4df058c9bf101fc";
 const myLat = "14.631"
 const myLong = "-90.516"
-const MyURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
+const MyURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`;
 
 async function apiFetch() {
@@ -75,7 +75,7 @@ async function getForecast() {
 
 function displayForecast(data) {
     // Pick roughly midday for next 3 days: indices 8, 16, 24 (3-hour intervals)
-    const dayIndexes = [8, 16, 24, 32, 39]; 
+    const dayIndexes = [8, 16, 24, 32, 39];
 
     dayIndexes.forEach((idx, i) => {
         const forecast = data.list[idx];

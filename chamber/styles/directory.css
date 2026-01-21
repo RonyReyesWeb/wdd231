@@ -239,13 +239,9 @@ footer p {
 /* Funcionality for the wayfinder functionality */
 
 .navigation a.active {
-    background-color: #488d64;
-    color: white;
-    font-weight: 700;
-    border-radius: 4px;
+    background-color: #e3e0e0;
 }
 
 .navigation a:hover {
-    background-color: #e07a5f;
-    color: white;
+    background-color: #d8d7d7;
 }
