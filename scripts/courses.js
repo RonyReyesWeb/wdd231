@@ -11,6 +11,26 @@ const courseContainer = document.querySelector("#courses");
 const totalCredits = document.querySelector("#totalCredits");
 const courseDetails = document.querySelector("#course-details");
 
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+
+    courseDetails.showModal();
+
+    const closeModal = document.getElementById("closeModal");
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
+
+
 function displayCourses(list) {
     courseContainer.innerHTML = "";
 
@@ -26,8 +46,11 @@ function displayCourses(list) {
         }
 
         div.innerHTML = `
-            <p>${course.subject} ${course.number}</p>
-        `;
+            <p>${course.subject} ${course.number}</p>`;
+
+        div.addEventListener("click", () => {
+            displayCourseDetails(course);
+        });
 
         courseContainer.appendChild(div);
     });
@@ -40,5 +63,12 @@ document.querySelector("#wdd").addEventListener("click", () =>
 document.querySelector("#cse").addEventListener("click", () =>
     displayCourses(courses.filter(c => c.subject === "CSE"))
 );
+
+courseDetails.addEventListener("click", (e) => {
+    if (e.target === courseDetails) { // only if click is on the backdrop
+        courseDetails.close();
+    }
+});
+
 
 displayCourses(courses);
