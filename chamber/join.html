@@ -53,31 +53,109 @@
         <div class="hero">
             <img src="images/hero.jpg" alt="Villa Hermosa City View">
         </div>
-        <h1>Join</h1>
-
         <form method="GET" action="thankyou.html" class="form">
             <label>First Name <input type="text" name="first" required autocomplete="given-name"
                     title="First Name"></label>
             <label>Last Name <input type="text" name="last" required autocomplete="family-name"
                     title="Last Name"></label>
-            <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="A Phone Number with dashes"
-                    placeholder="987-555-1234"></label>
-            <label>Email<input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
-                    autocomplete="email"></label>
-            <label>Organization Name<input type="organization" name="organization" required
-                    autocomplete="organization-details" title="Your organization"></label>
-            <label>Business Description<input type="description" name="description" required
-                    autocomplete="description-details" title="Your description"></label>
+            <label>Title<input type="text" name="title" autocomplete="organization-title" title="Your title"
+                    pattern="[A-Za-z\s\-]{7,}" placeholder="At least 7 characters"></label>
+            <label>Email<input type="email" name="email" required autocomplete="email" placeholder="john89@gmail.com"
+                    title="Your Email"></label>
+            <label>Mobile Phone<input type="tel" name="phone" required autocomplete="tel" placeholder="987-555-1234"
+                    title="Phone Number"></label>
+            <label>Organization Name<input type="text" name="organization" required autocomplete="organization"
+                    title="Organization Name"></label>
+            <label>Business/Organization Description<textarea name="description"
+                    title="Description of your organization"></textarea></label>
 
-            <h1>Membership</h1>
-            <div class="membership">
-                <label><input type="radio" name="membership" value="Member" checked> Member</label>
-                <label><input type="radio" name="membership" value="Silver"> Silver</label>
-                <label><input type="radio" name="membership" value="Gold"> Gold</label>
-            </div>
+            <label>
+                Membership Level
+                <select name="membership" required title="Choose a membership">
+                    <option value="">Select...</option>
+                    <option value="np">NP Membership (No Fee)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <!-- Hidden timestamp -->
+            <input type="hidden" name="timestamp" id="timestamp">
+
             <input type="submit" value="Submit Application">
         </form>
 
+        <div class="cards-container">
+            <div class="membership-card" data-modal="modal-np">
+                <h2>NP Membership</h2>
+                <p>Non-profit organizations, no fee.</p>
+                <a>Learn More</a>
+            </div>
+            <div class="membership-card" data-modal="modal-bronze">
+                <h2>Bronze Membership</h2>
+                <p>Basic benefits for your business.</p>
+                <a>Learn More</a>
+            </div>
+            <div class="membership-card" data-modal="modal-silver">
+                <h2>Silver Membership</h2>
+                <p>Additional perks and discounts.</p>
+                <a>Learn More</a>
+            </div>
+            <div class="membership-card" data-modal="modal-gold">
+                <h2>Gold Membership</h2>
+                <p>Premium benefits, events & spotlight.</p>
+                <a>Learn More</a>
+            </div>
+        </div>
+
+        <div id="modal-np" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>NP Membership Benefits</h2>
+                <ul>
+                    <li>Access to community resources</li>
+                    <li>No membership fee</li>
+                    <li>Participation in events</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="modal-bronze" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Bronze Membership Benefits</h2>
+                <ul>
+                    <li>Business listing in directory</li>
+                    <li>Basic event access</li>
+                    <li>Networking opportunities</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="modal-silver" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Silver Membership Benefits</h2>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Advertising spotlight</li>
+                    <li>Event discounts</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="modal-gold" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Gold Membership Benefits</h2>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Premium event invitations</li>
+                    <li>Home page spotlight</li>
+                </ul>
+            </div>
+        </div>
     </main>
 
     <footer>
