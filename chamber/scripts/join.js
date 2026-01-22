@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 3. Modal functionality
-    const modalLinks = document.querySelectorAll('.membership-card a');
+    const modalLinks = document.querySelectorAll('.membership-card button');
     modalLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             const modalId = e.target.parentElement.getAttribute('data-modal');
