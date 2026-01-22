@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="WDD 231 course home page showcasing the chamber of commerce created for the project">
+    <meta name="author" content="Rony Reyes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Villa Hermosa Chamber of Commerce </title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <meta property="og:title" content="WDD 231 | Rony Reyes – Chambers of Commerce Villa Hermosa">
+    <meta property="og:description"
+        content="It is a page created to showcase the business and their information in our city to make it accesible for everyone">
+    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/images/profile.jpg">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/wayfinder.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/modification.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/github.svg" alt="Site logo">
+        <span>Villa Hermosa Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="Open menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Thanks you</h1>
+        <p>We received your application to join the chamber of commerce</p>
+        <p>Here are the details of your application</p>
+    </main>
+    <footer>
+        <section class="address">
+            <p>Villa Hermosa Chamber of Commerce</p>
+            <p>Lote 31 A, Manzana H, Sector 4 Villa Hermosa 1</p>
+            <p>San Miguel Petapa, Guatemala</p>
+            <p>(502) 5028-1329</p>
+        </section>
+        <section class="social">
+            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank" aria-label="LinkedIn profile">
+                <img src="images/linkedin.svg" alt="linkedin logo" width="16" height="16">
+            </a>
+            <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank" aria-label="facebook profile">
+                <img src="images/facebook.svg" alt="facebook logo" width="16" height="16">
+            </a>
+            <a href="https://github.com/RonyReyesWeb" target="_blank" aria-label="github profile">
+                <img src="images/github.svg" alt="github logo" width="16" height="16">
+            </a>
+        </section>
+        <section class="project">
+            <p>WDD231 Class Project</p>
+            <p>Rony Reyes</p>
+            <p>&copy; <span id="currentyear"></span> ❖ Villa Hermosa Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+</body>
+
+</html>
