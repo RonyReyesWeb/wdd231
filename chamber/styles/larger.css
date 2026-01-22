@@ -39,5 +39,9 @@
         grid-template-columns: 2fr 1fr 1fr;
         column-gap: 2px;
     }
-}
 
+    .main-container {
+        flex-direction: row;
+        /* ⬅ side-by-side only on large screens */
+    }
+}
