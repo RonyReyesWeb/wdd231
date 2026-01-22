@@ -47,10 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-// thankyou.js
-
-
 // Get form data from URL query string
 document.addEventListener('DOMContentLoaded', () => {
     const myInfo = new URLSearchParams(window.location.search);

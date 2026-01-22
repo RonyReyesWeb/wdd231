@@ -320,6 +320,20 @@ footer p {
     border-radius: 8px;
     background-color: white;
     text-align: center;
+    animation: fadeSlideUp 2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .membership-card h2 {
