@@ -9,6 +9,7 @@ const courses = [
 
 const courseContainer = document.querySelector("#courses");
 const totalCredits = document.querySelector("#totalCredits");
+const courseDetails = document.querySelector("#course-details");
 
 function displayCourses(list) {
     courseContainer.innerHTML = "";
@@ -41,26 +42,3 @@ document.querySelector("#cse").addEventListener("click", () =>
 );
 
 displayCourses(courses);
-
-
-function displayCourseDetails(courses) {
-    courseDetails.innerHTML = '';
-    courseDetails.innerHTML = `
-    <button id="closeModal">❌</button>
-    <h2>${courses.subject} ${courses.number}</h2>
-    <h3>${courses.title}</h3>
-    <p><strong>Credits</strong>: ${courses.credits}</p>
-    <p><strong>Certificate</strong>: ${courses.certificate}</p>
-    <p>${course.description}</p>
-    <p><strong>Technologies</strong>: ${courses.technology.join(', ')}</p>
-  `;
-    courseDetails.showModal();
-
-    closeModal.addEventListener("click", () => {
-        courseDetails.close();
-    });
-}
-
-courseDiv.addEventListener('click', () => {
-    displayCourseDetails(courses);
-});
