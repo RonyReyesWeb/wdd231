@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/hamburguer.js" defer></script>
+    <script src="scripts/lastmodify.js" defer></script>
+
+
 </head>
 
 <body>
@@ -85,6 +89,54 @@
             <p><strong>Desktop/Tablet View:</strong> Logo + nav links → Hero → Services grid → Call-to-action → Footer
             </p>
 
+            <section>
+                <h3>Desktop View (Home Page)</h3>
+                <div class="wireframe desktop-wireframe">
+                    <div class="wire-header">Logo + Site Name</div>
+
+                    <div class="wire-nav">
+                        <div class="wire-button">Home</div>
+                        <div class="wire-button">Services</div>
+                        <div class="wire-button">Contact</div>
+                    </div>
+
+                    <div class="wire-content">
+                        <div class="placeholder-card">
+                            <div>
+                                <p>Content information</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wire-footer">Contact Info + Social Links</div>
+                </div>
+                <h3>Mobile View (Home Page)</h3>
+                <div class="wireframe mobile-wireframe">
+                    <div class="wire-header">Logo + Site Name
+                        <button class="hamburger">&#9776;</button>
+                    </div>
+
+                    <div class="wire-nav">
+                        <div class="nav-links">
+                            <div class="wire-button">Home</div>
+                            <div class="wire-button">Services</div>
+                            <div class="wire-button">Contact</div>
+                        </div>
+                    </div>
+
+                    <div class="wire-content">
+                        <div class="placeholder-card">
+                            <div>
+                                <p>Content information</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wire-footer">Contact Info + Social Links</div>
+                </div>
+
+            </section>
+
         </section>
 
         <section>
@@ -100,7 +152,7 @@
     </main>
 
     <footer>
-        <div class="social">
+        <div>
             <a href="https://www.linkedin.com/in/RonyReyes" target="_blank"><img src="images/linkedin.svg"
                     alt="linked in" width="16" height="16"></a>
             <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank"><img src="images/facebook.svg"
@@ -111,7 +163,6 @@
         <p>&copy; <span id="currentyear"></span> ❖ Rony Reyes</p>
         <p id="lastModified"></p>
     </footer>
-
 </body>
 
 </html>

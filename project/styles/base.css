@@ -38,3 +38,114 @@ section {
 .border {
     background-color: #198754;
 }
+
+.wireframe {
+    border: 2px dashed #198754;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Mobile vs Desktop Wireframes */
+.wireframe.mobile {
+    height: 200px;
+}
+
+.wireframe.desktop {
+    height: 300px;
+}
+
+
+/* Wireframe Sections */
+.wireframe {
+    border: 2px dashed #198754;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.wire-header,
+.wire-nav {
+    background-color: #0B5ED7;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.wire-footer {
+    background-color: #0B5ED7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.wire-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wire-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #198754;
+    color: white;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.placeholder-card {
+    background: linear-gradient(90deg, #ddd, #eee, #ddd);
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Hamburger Button */
+.mobile-wireframe .hamburger {
+    font-size: 24px;
+    background: #0B5ED7;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Mobile navigation links hidden by default */
+.mobile-wireframe .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+/* Show nav-links when active */
+.mobile-wireframe .nav-links.active {
+    display: flex;
+}
+
+/* Individual nav buttons in mobile view */
+.mobile-wireframe .nav-links .wire-button {
+    background-color: #198754;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+}
