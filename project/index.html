@@ -3,57 +3,114 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="A site plan for TechHelp, a software services company offering website creation and professional tech support.">
+    <meta name="author" content="Rony Reyes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechHelp | Site Plan</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 231 | TechHelp – Site Plan">
+    <meta property="og:description"
+        content="A site plan for TechHelp, a software services company offering website creation and professional tech support.">
+    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/images/techhelp-preview.jpg">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/site-plan.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/project/images/profile.jpg">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/project">
 
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
+    <header>
+        <h1>TechHelp | Individual Project Site Plan</h1>
+    </header>
 
-    <h1>TechHelp | Individual Project Site Plan</h1>
+    <main>
 
-    <h2>Site Name</h2>
-    <p><strong>TechHelp</strong></p>
-    <p>This name represents a company focused on providing beginner-friendly software support, website creation
-        services, and professional tech solutions.</p>
-    <p>Optional domain: techhelp.com</p>
+        <section>
+            <h2>Site Name</h2>
+            <p><strong>TechHelp</strong></p>
+            <p>This name represents a company focused on providing beginner-friendly software support, website creation
+                services, and professional tech solutions.</p>
+        </section>
 
-    <h2>Site Purpose</h2>
-    <p>The website will provide information about software services, including website building, troubleshooting, and
-        paid professional support.</p>
 
-    <h2>Scenarios</h2>
-    <ul>
-        <li>What software services does TechHelp offer and how much do they cost?</li>
-        <li>How can I request professional support or get a quote for a website project?</li>
-    </ul>
+        <section>
+            <h2>Site Purpose</h2>
+            <p>The website will provide information about software services, including website building,
+                troubleshooting, and
+                paid professional support.</p>
+        </section>
 
-    <h2>Color Scheme</h2>
-    <p>Primary color (headings, buttons, accents): #004aad</p>
-    <p>Secondary color (background, sections, accents): #f0f0f0</p>
 
-    <h2>Typography</h2>
-    <ul>
-        <li><strong>Quicksand Bold:</strong> Headings</li>
-        <li><strong>Quicksand Regular:</strong> Body text</li>
-    </ul>
+        <section>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>Is there a way to get an app for mobile devices and how long can it take?</li>
+                <li>How can I request professional support or get a quote for a customize website project?</li>
+            </ul>
+        </section>
 
-    <h2>Wireframe</h2>
-    <p><strong>Mobile View:</strong> Logo → Hamburger menu → Hero image → Services/pricing → Contact button → Footer</p>
-    <p><strong>Desktop/Tablet View:</strong> Logo + nav links → Hero → Services grid → Call-to-action → Footer</p>
 
-    <h2>Testing Plan</h2>
-    <ul>
-        <li>HTML Validation: W3C Markup Validator</li>
-        <li>Accessibility: WAVE Web Accessibility Evaluation Tool</li>
-        <li>SEO & Performance: Google PageSpeed Insights / Lighthouse</li>
-        <li>Color Contrast: WebAIM Contrast Checker</li>
-    </ul>
+        <section>
+            <h2>Color Scheme</h2>
+            <p><strong>Primary Color:</strong> #0B5ED7: Used for headings and section titles.</p>
+            <p><strong>Accent Color:</strong> #198754: Used for borders, highlights, and wireframe placeholders.</p>
+
+            <div class="box-color">
+                <div class="color primary"></div>
+                <div class="color border"></div>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Typography</h2>
+            <ul>
+                <li><strong>Quicksand Bold:</strong> Headings</li>
+                <li><strong>Quicksand Regular:</strong> Body text</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Wireframe</h2>
+            <p><strong>Mobile View:</strong> Logo → Hamburger menu → Hero image → Services/pricing → Contact button →
+                Footer</p>
+            <p><strong>Desktop/Tablet View:</strong> Logo + nav links → Hero → Services grid → Call-to-action → Footer
+            </p>
+
+        </section>
+
+        <section>
+            <h2>Testing Plan</h2>
+            <ul>
+                <li>HTML Validation: W3C Markup Validator</li>
+                <li>Accessibility: WAVE Web Accessibility Evaluation Tool</li>
+                <li>SEO & Performance: Google PageSpeed Insights / Lighthouse</li>
+                <li>Color Contrast: WebAIM Contrast Checker</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in" width="16" height="16"></a>
+            <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://github.com/RonyReyesWeb" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> ❖ Rony Reyes</p>
+        <p id="lastModified"></p>
+    </footer>
 
 </body>
 
