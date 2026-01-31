@@ -1,12 +1,5 @@
 export const Places = [
     {
-        "name": "Xetulul Theme Park",
-        "address": "San Martín Zapotitlán, Retalhuleu Department, Guatemala",
-        "cost": "≈ Q100–Q300 for entry + rides (varies by day and wristband) *",
-        "description": "One of the largest amusement parks in Latin America with rides, themed plazas, shows, and family fun.",
-        "photo": "xetulul.webp"
-    },
-    {
         "name": "Xocomil Water Park",
         "address": "Retalhuleu Department, Guatemala",
         "cost": "Varies by ticket (often combined with Xetulul) *",
@@ -61,12 +54,5 @@ export const Places = [
         "cost": "Free to explore; activities and boat rides vary *",
         "description": "Lakeside village popular for nature walks, boat trips, and relaxing views.",
         "photo": "remate.webp"
-    },
-    {
-        "name": "Ixchel Museum of Indigenous Costume",
-        "address": "Guatemala City (Francisco Marroquín University), Guatemala",
-        "cost": "Approx $5 USD adults, $2 youth *",
-        "description": "Interactive museum celebrating traditional Guatemalan textiles.",
-        "photo": "ixchel.webp"
     }
 ]
