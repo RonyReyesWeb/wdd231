@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     header,
     main,
@@ -43,5 +43,14 @@
     .main-container {
         flex-direction: row;
         /* ⬅ side-by-side only on large screens */
+    }
+
+    #allplaces {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #allplaces img:hover {
+        transform: scale(1.08);
     }
 }

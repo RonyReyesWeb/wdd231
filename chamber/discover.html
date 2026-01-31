@@ -24,12 +24,14 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/wayfinder.js" defer></script>
     <script src="scripts/nav.js" defer></script>
-    <script src="scripts/dialog.js" defer></script>
     <script src="scripts/modification.js" defer></script>
+    <script src="scripts/visitdate.js" defer></script>
+    <script src="scripts/Discover.js" type="module"></script>
 </head>
 
 <body>
@@ -49,16 +51,10 @@
     </nav>
 
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Villa Hermosa City View">
-            <a href="index.html" class="cta-btn">Join the Chamber</a>
-        </div>
         <h1>Discover</h1>
-        <button id="openButton">More info</button>
-        <dialog id="dialogBox">
-            <p>Additional information aobout the topic</p>
-            <button id="closeButton">Close</button>
-        </dialog>
+        <div id="allplaces"></div>
+        <p id="visit-message" class="visit-message"></p>
+
     </main>
 
     <footer>
