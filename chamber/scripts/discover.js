@@ -7,6 +7,7 @@ function displayItems(places) {
         const thecard = document.createElement('div')
         const thephoto = document.createElement('img')
         thephoto.src = `images/${x.photo}`
+        thephoto.loading = "lazy";
         thephoto.alt = x.name
         thecard.appendChild(thephoto)
 

@@ -414,3 +414,10 @@ footer p {
     grid-area: location;
 
 }
+
+.visit-message {
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+}
