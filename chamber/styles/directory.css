@@ -382,14 +382,13 @@ footer p {
     border: 1px solid #999;
     background-color: #eee;
     border-radius: 8px;
-    overflow: hidden;
-
     display: grid;
     grid-template-areas:
         "name"
         "photograph"
         "description"
         "location"
+        "button"
 }
 
 #allplaces div h2 {
@@ -413,6 +412,11 @@ footer p {
     margin: 1rem 10px;
     grid-area: location;
 
+}
+
+#allplaces div button {
+    margin: 1rem 10px;
+    grid-area: button;
 }
 
 .visit-message {

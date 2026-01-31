@@ -23,6 +23,11 @@ function displayItems(places) {
         thedesc.innerHTML = x.description
         thecard.appendChild(thedesc)
 
+        const learnMoreBtn = document.createElement('button')
+        learnMoreBtn.innerText = "Learn More"
+        learnMoreBtn.classList.add('learn-more')
+        thecard.appendChild(learnMoreBtn)
+
         Showhere.appendChild(thecard)
     })
 }

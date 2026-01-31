@@ -5,10 +5,12 @@
             "photograph name"
             "photograph description"
             "photograph location"
+            "photograph button"
     }
 
     #allplaces div img {
         width: 300px;
+        height: 250px;
     }
 
     #allplaces img {
