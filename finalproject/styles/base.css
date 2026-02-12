@@ -54,12 +54,6 @@ section {
     background-color: #198754;
 }
 
-.wireframe {
-    border: 2px dashed #198754;
-    padding: 20px;
-    margin: 20px 0;
-}
-
 /* Mobile vs Desktop Wireframes */
 .wireframe.mobile {
     height: 200px;
