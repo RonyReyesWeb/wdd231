@@ -1,6 +1,7 @@
-const hamburger = document.querySelector('.mobile-wireframe .hamburger');
-const navLinks = document.querySelector('.mobile-wireframe .nav-links');
+const navbuttom = document.querySelector('#ham-btn');
+const navlinks = document.querySelector('#nav-bar');
 
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+navbuttom.addEventListener('click', () => {
+    navbuttom.classList.toggle('show');
+    navlinks.classList.toggle('show');
 });
