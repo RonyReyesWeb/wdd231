@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="A site plan for TechHelp, a software services company offering website creation and professional tech support.">
+    <meta name="author" content="Rony Reyes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHelp | Site Plan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 231 | TechHelp – Site Plan">
+    <meta property="og:title" content="WDD 231 | TechHelp – Site Plan">
+    <meta property="og:description"
+        content="A site plan for TechHelp, a software services company offering website creation and professional tech support.">
+    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/images/techhelp-preview.jpg">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/finalproject/indexplanning.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/finalproject/images/profile.jpg">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/finalproject">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/hamburguer.js" defer></script>
+    <script src="scripts/lastmodify.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>TechHelp | Individual Project Site Plan</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Site Name</h2>
+            <p><strong>TechHelp</strong></p>
+            <p>This name represents a company focused on providing beginner-friendly software support, website creation
+                services, and professional tech solutions.</p>
+        </section>
+
+
+        <section>
+            <h2>Site Purpose</h2>
+            <p>The website will provide information about software services, including website building,
+                troubleshooting, and
+                paid professional support.</p>
+        </section>
+
+
+        <section>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>Is there a way to get an app for mobile devices and how long can it take?</li>
+                <li>How can I request professional support or get a quote for a customize website project?</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Color Scheme</h2>
+            <p><strong>Primary Color:</strong> #0B5ED7: Used for headings and section titles.</p>
+            <p><strong>Accent Color:</strong> #198754: Used for borders, highlights, and wireframe placeholders.</p>
+
+            <div class="box-color">
+                <div class="color primary"></div>
+                <div class="color border"></div>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Typography</h2>
+            <ul>
+                <li><strong>Quicksand Bold:</strong> Headings</li>
+                <li><strong>Quicksand Regular:</strong> Body text</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Wireframe</h2>
+            <p><strong>Mobile View:</strong> Logo → Hamburger menu → Hero image → Services/pricing → Contact button →
+                Footer</p>
+            <p><strong>Desktop/Tablet View:</strong> Logo + nav links → Hero → Services grid → Call-to-action → Footer
+            </p>
+
+            <section>
+                <h3>Desktop View (Home Page)</h3>
+                <div class="wireframe desktop-wireframe">
+                    <div class="wire-header">Logo + Site Name</div>
+
+                    <div class="wire-nav">
+                        <div class="wire-button">Home</div>
+                        <div class="wire-button">Services</div>
+                        <div class="wire-button">Contact</div>
+                    </div>
+
+                    <div class="wire-content">
+                        <div class="placeholder-card">
+                            <div>
+                                <p>Content information</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wire-footer">Contact Info + Social Links</div>
+                </div>
+                <h3>Mobile View (Home Page)</h3>
+                <div class="wireframe mobile-wireframe">
+                    <div class="wire-header">Logo + Site Name
+                        <button class="hamburger">&#9776;</button>
+                    </div>
+
+                    <div class="wire-nav">
+                        <div class="nav-links">
+                            <div class="wire-button">Home</div>
+                            <div class="wire-button">Services</div>
+                            <div class="wire-button">Contact</div>
+                        </div>
+                    </div>
+
+                    <div class="wire-content">
+                        <div class="placeholder-card">
+                            <div>
+                                <p>Content information</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wire-footer">Contact Info + Social Links</div>
+                </div>
+
+            </section>
+
+        </section>
+
+        <section>
+            <h2>Testing Plan</h2>
+            <ul>
+                <li>HTML Validation: W3C Markup Validator</li>
+                <li>Accessibility: WAVE Web Accessibility Evaluation Tool</li>
+                <li>SEO & Performance: Google PageSpeed Insights / Lighthouse</li>
+                <li>Color Contrast: WebAIM Contrast Checker</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in" width="16" height="16"></a>
+            <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://github.com/RonyReyesWeb" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> ❖ Rony Reyes</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

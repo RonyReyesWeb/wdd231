@@ -3,28 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="TechHelp provides professional website creation and software support services.">
+    <meta name="description"
+        content="Explore TechHelp services including website development, software support, and technical consulting for individuals and small businesses.">
     <meta name="author" content="Rony Reyes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechHelp | Home</title>
+    <title>TechHelp | Services</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <meta property="og:title" content="WDD 231 | TechHelp – Index">
+    <meta property="og:title" content="WDD 231 | TechHelp – Services">
     <meta property="og:description"
-        content="A site plan for TechHelp, a software services company offering website creation and professional tech support.">
+        content="Discover TechHelp’s professional services: website creation, software troubleshooting, and technical support.">
     <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/finalproject/images/techhelp-preview.jpg">
-    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/finalproject/index.html">
+    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/finalproject/services.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://ronyreyesweb.github.io/wdd231/finalproject/images/profile.jpg">
-    <meta property="og:url" content="https://ronyreyesweb.github.io/wdd231/project">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+
+    <script type="module" src="scripts/services.js"></script>
     <script src="scripts/main.js" defer></script>
     <script src="scripts/hamburguer.js" defer></script>
     <script src="scripts/lastmodify.js" defer></script>
@@ -32,7 +33,7 @@
 
 <body>
     <header>
-        <h1>TechHelp</h1>
+        <h1>Our Services</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="services.html">Services</a>
@@ -41,20 +42,13 @@
     </header>
 
     <main>
-        <section>
-            <h2>Professional Software Services</h2>
-            <p>
-                TechHelp offers reliable website development and software support for individuals and businesses.
-                Our goal is to provide clear solutions at transparent prices.
-            </p>
+        <section id="services-container">
         </section>
 
-        <section>
-            <h2>Why Choose TechHelp?</h2>
-            <p>
-                We focus on accessibility, performance, and user-friendly solutions built with modern web standards.
-            </p>
-        </section>
+        <dialog id="service-modal">
+            <div id="modal-content"></div>
+            <button id="close-modal">Close</button>
+        </dialog>
     </main>
 
     <footer>

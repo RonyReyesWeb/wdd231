@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Website Setup",
+        "price": 200,
+        "duration": "5 days",
+        "category": "Web Development",
+        "description": "Simple static website with up to 3 pages."
+    },
+    {
+        "id": 2,
+        "name": "Business Website",
+        "price": 500,
+        "duration": "10 days",
+        "category": "Web Development",
+        "description": "Professional multi-page website for small businesses."
+    },
+    {
+        "id": 3,
+        "name": "Website Redesign",
+        "price": 400,
+        "duration": "7 days",
+        "category": "Web Development",
+        "description": "Modern redesign of an existing website with improved layout and usability."
+    },
+    {
+        "id": 4,
+        "name": "Responsive Design Optimization",
+        "price": 250,
+        "duration": "5 days",
+        "category": "Web Development",
+        "description": "Optimize website for mobile, tablet, and desktop devices."
+    },
+    {
+        "id": 5,
+        "name": "Landing Page Design",
+        "price": 150,
+        "duration": "3 days",
+        "category": "Web Development",
+        "description": "High-conversion single landing page for promotions or campaigns."
+    },
+    {
+        "id": 6,
+        "name": "Website Maintenance",
+        "price": 100,
+        "duration": "Monthly",
+        "category": "Support",
+        "description": "Monthly updates, backups, and performance checks."
+    },
+    {
+        "id": 7,
+        "name": "Bug Fixing & Troubleshooting",
+        "price": 80,
+        "duration": "1–2 days",
+        "category": "Support",
+        "description": "Fix broken features, layout issues, or code errors."
+    },
+    {
+        "id": 8,
+        "name": "Domain & Hosting Setup",
+        "price": 75,
+        "duration": "1 day",
+        "category": "IT Services",
+        "description": "Domain registration guidance and hosting configuration."
+    },
+    {
+        "id": 9,
+        "name": "Website Performance Optimization",
+        "price": 200,
+        "duration": "4 days",
+        "category": "Web Development",
+        "description": "Improve loading speed and overall site performance."
+    },
+    {
+        "id": 10,
+        "name": "SEO Basic Setup",
+        "price": 180,
+        "duration": "3 days",
+        "category": "Marketing",
+        "description": "Basic search engine optimization for better online visibility."
+    },
+    {
+        "id": 11,
+        "name": "Content Updates",
+        "price": 60,
+        "duration": "1 day",
+        "category": "Support",
+        "description": "Text, image, or content updates on existing pages."
+    },
+    {
+        "id": 12,
+        "name": "Contact Form Integration",
+        "price": 90,
+        "duration": "1 day",
+        "category": "Web Development",
+        "description": "Custom contact forms with email notifications."
+    },
+    {
+        "id": 13,
+        "name": "Accessibility Improvements",
+        "price": 220,
+        "duration": "4 days",
+        "category": "Web Development",
+        "description": "Improve accessibility following WCAG best practices."
+    },
+    {
+        "id": 14,
+        "name": "Technical Consultation",
+        "price": 50,
+        "duration": "1 hour",
+        "category": "Consulting",
+        "description": "One-on-one consultation for technical or website planning needs."
+    },
+    {
+        "id": 15,
+        "name": "Website Security Setup",
+        "price": 170,
+        "duration": "2 days",
+        "category": "IT Services",
+        "description": "Basic security hardening and SSL setup."
+    },
+    {
+        "id": 16,
+        "name": "Email Setup & Support",
+        "price": 120,
+        "duration": "1 day",
+        "category": "IT Services",
+        "description": "Professional email configuration and troubleshooting."
+    },
+    {
+        "id": 17,
+        "name": "Website Backup & Recovery",
+        "price": 90,
+        "duration": "1 day",
+        "category": "Support",
+        "description": "Backup setup and recovery assistance for websites."
+    }
+]
