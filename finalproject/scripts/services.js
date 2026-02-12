@@ -9,12 +9,17 @@ async function loadServices() {
         const services = await response.json();
 
         services.forEach(service => {
-            const card = document.createElement('div');
+            const card = document.createElement('article');
+            card.classList.add('service-card');
+
             card.innerHTML = `
                 <h3>${service.name}</h3>
-                <p>Price: $${service.price}</p>
-                <p>Duration: ${service.duration}</p>
-                <button>View Details</button>
+                <p><strong>Price:</strong> $${service.price}</p>
+                <p><strong>Duration:</strong> ${service.duration}</p>
+                <button 
+                    aria-label="View details for ${service.name}">
+                    View Details
+                </button>
             `;
 
             card.querySelector('button').addEventListener('click', () => {
