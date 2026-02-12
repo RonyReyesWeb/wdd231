@@ -1,3 +1,18 @@
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
@@ -53,7 +68,6 @@ section {
 .wireframe.desktop {
     height: 300px;
 }
-
 
 /* Wireframe Sections */
 .wireframe {
@@ -162,6 +176,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+.navigation a.active {
+    font-weight: bold;
+    color: #0B5ED7;
+}
 
 footer {
     text-align: center;
