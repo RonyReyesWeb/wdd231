@@ -30,4 +30,8 @@
         border: none;
     }
 
+    .pair {
+        flex-direction: row;
+    }
+
 }
