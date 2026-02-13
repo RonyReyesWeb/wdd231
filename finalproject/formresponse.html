@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Form submission confirmation page for TechHelp.">
+    <meta name="author" content="Rony Reyes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHelp | Form Submitted</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Page-specific script -->
+    <script src="scripts/form-response.js" defer></script>
+
+    <!-- Shared scripts -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/hamburguer.js" defer></script>
+    <script src="scripts/lastmodify.js" defer></script>
+    <script src="scripts/wayfinder.js" defer></script>
+    <script src="scripts/formresponse.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/coding.svg" alt="Site logo" loading="lazy">
+        <h1>TechHelp</h1>
+        <button id="ham-btn" class="hamburger" aria-label="Toggle navigation menu"></button>
+    </header>
+
+    <main>
+        <section class="confirmation">
+            <h2>Thank You for Contacting TechHelp!</h2>
+
+            <p>
+                We will contact you as soon as possible to schedule an appointment using the information below.
+            </p>
+
+            <p><strong>Name:</strong> <span id="display-name"></span></p>
+            <p><strong>Email:</strong> <span id="display-email"></span></p>
+
+            <p><strong>Message:</strong></p>
+            <p id="display-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/RonyReyes" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in logo" width="16" height="16" loading="lazy"></a>
+            <a href="https://www.facebook.com/rony.reyes.7165331" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook logo" width="16" height="16" loading="lazy"></a>
+            <a href="https://github.com/RonyReyesWeb" target="_blank"><img src="images/github.svg" alt="github logo"
+                    width="16" height="16" loading="lazy"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> ❖ Rony Reyes</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
