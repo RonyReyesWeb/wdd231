@@ -14,6 +14,7 @@ async function loadServices() {
 
             card.innerHTML = `
                 <h3>${service.name}</h3>
+                <p><strong>Category:</strong> ${service.category}</p>
                 <p><strong>Price:</strong> $${service.price}</p>
                 <p><strong>Duration:</strong> ${service.duration}</p>
                 <button 

@@ -7,6 +7,7 @@ export function openModal(service) {
         <h3>${service.name}</h3>
         <p>${service.description}</p>
         <p>Category: ${service.category}</p>
+        <p><strong>Duration:</strong> ${service.duration}</p>
     `;
     modal.showModal();
 }

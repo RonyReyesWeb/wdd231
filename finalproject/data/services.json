@@ -5,6 +5,15 @@
         "price": 200,
         "duration": "5 days",
         "category": "Web Development",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Individuals or small startups",
+        "supportIncluded": true,
+        "features": [
+            "Up to 3 pages",
+            "Mobile responsive design",
+            "Basic SEO structure"
+        ],
         "description": "Simple static website with up to 3 pages."
     },
     {
@@ -13,6 +22,15 @@
         "price": 500,
         "duration": "10 days",
         "category": "Web Development",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Small to medium businesses",
+        "supportIncluded": true,
+        "features": [
+            "Multi-page site",
+            "Custom design",
+            "SEO-ready"
+        ],
         "description": "Professional multi-page website for small businesses."
     },
     {
@@ -21,6 +39,15 @@
         "price": 400,
         "duration": "7 days",
         "category": "Web Development",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Existing websites needing improvement",
+        "supportIncluded": true,
+        "features": [
+            "Modern UI/UX",
+            "Improved layout and usability",
+            "Responsive design"
+        ],
         "description": "Modern redesign of an existing website with improved layout and usability."
     },
     {
@@ -29,6 +56,15 @@
         "price": 250,
         "duration": "5 days",
         "category": "Web Development",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Existing websites",
+        "supportIncluded": true,
+        "features": [
+            "Mobile, tablet, and desktop optimization",
+            "Faster loading times",
+            "Improved usability"
+        ],
         "description": "Optimize website for mobile, tablet, and desktop devices."
     },
     {
@@ -37,6 +73,15 @@
         "price": 150,
         "duration": "3 days",
         "category": "Web Development",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Promotions or campaigns",
+        "supportIncluded": false,
+        "features": [
+            "High-conversion layout",
+            "Single-page design",
+            "Responsive template"
+        ],
         "description": "High-conversion single landing page for promotions or campaigns."
     },
     {
@@ -45,6 +90,15 @@
         "price": 100,
         "duration": "Monthly",
         "category": "Support",
+        "level": "All levels",
+        "deliveryType": "Recurring",
+        "idealFor": "All websites",
+        "supportIncluded": true,
+        "features": [
+            "Monthly updates",
+            "Backups",
+            "Performance checks"
+        ],
         "description": "Monthly updates, backups, and performance checks."
     },
     {
@@ -53,6 +107,15 @@
         "price": 80,
         "duration": "1–2 days",
         "category": "Support",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Websites with errors",
+        "supportIncluded": true,
+        "features": [
+            "Fix broken features",
+            "Resolve layout issues",
+            "Correct code errors"
+        ],
         "description": "Fix broken features, layout issues, or code errors."
     },
     {
@@ -61,6 +124,15 @@
         "price": 75,
         "duration": "1 day",
         "category": "IT Services",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Individuals or businesses starting online",
+        "supportIncluded": false,
+        "features": [
+            "Domain registration guidance",
+            "Hosting configuration",
+            "DNS setup"
+        ],
         "description": "Domain registration guidance and hosting configuration."
     },
     {
@@ -69,6 +141,15 @@
         "price": 200,
         "duration": "4 days",
         "category": "Web Development",
+        "level": "Advanced",
+        "deliveryType": "One-time",
+        "idealFor": "Websites needing speed improvements",
+        "supportIncluded": true,
+        "features": [
+            "Faster page load",
+            "Optimized images",
+            "Code minification"
+        ],
         "description": "Improve loading speed and overall site performance."
     },
     {
@@ -77,6 +158,15 @@
         "price": 180,
         "duration": "3 days",
         "category": "Marketing",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "New websites",
+        "supportIncluded": false,
+        "features": [
+            "Metadata optimization",
+            "Sitemap creation",
+            "Basic keyword setup"
+        ],
         "description": "Basic search engine optimization for better online visibility."
     },
     {
@@ -85,6 +175,15 @@
         "price": 60,
         "duration": "1 day",
         "category": "Support",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Existing websites",
+        "supportIncluded": true,
+        "features": [
+            "Text updates",
+            "Image updates",
+            "Content improvements"
+        ],
         "description": "Text, image, or content updates on existing pages."
     },
     {
@@ -93,6 +192,15 @@
         "price": 90,
         "duration": "1 day",
         "category": "Web Development",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Websites needing forms",
+        "supportIncluded": true,
+        "features": [
+            "Custom contact forms",
+            "Email notifications",
+            "Validation rules"
+        ],
         "description": "Custom contact forms with email notifications."
     },
     {
@@ -101,6 +209,15 @@
         "price": 220,
         "duration": "4 days",
         "category": "Web Development",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "All websites",
+        "supportIncluded": true,
+        "features": [
+            "WCAG compliance",
+            "Screen reader improvements",
+            "Keyboard navigation enhancements"
+        ],
         "description": "Improve accessibility following WCAG best practices."
     },
     {
@@ -109,6 +226,15 @@
         "price": 50,
         "duration": "1 hour",
         "category": "Consulting",
+        "level": "All levels",
+        "deliveryType": "One-time",
+        "idealFor": "Individuals or businesses",
+        "supportIncluded": false,
+        "features": [
+            "Planning guidance",
+            "Technical advice",
+            "Project recommendations"
+        ],
         "description": "One-on-one consultation for technical or website planning needs."
     },
     {
@@ -117,6 +243,15 @@
         "price": 170,
         "duration": "2 days",
         "category": "IT Services",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Websites with sensitive data",
+        "supportIncluded": true,
+        "features": [
+            "SSL setup",
+            "Security hardening",
+            "Basic firewall rules"
+        ],
         "description": "Basic security hardening and SSL setup."
     },
     {
@@ -125,6 +260,15 @@
         "price": 120,
         "duration": "1 day",
         "category": "IT Services",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Small businesses or individuals",
+        "supportIncluded": true,
+        "features": [
+            "Professional email configuration",
+            "Troubleshooting",
+            "Integration with domains"
+        ],
         "description": "Professional email configuration and troubleshooting."
     },
     {
@@ -133,6 +277,66 @@
         "price": 90,
         "duration": "1 day",
         "category": "Support",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "All websites",
+        "supportIncluded": true,
+        "features": [
+            "Daily or weekly backups",
+            "Recovery testing",
+            "Data restoration"
+        ],
         "description": "Backup setup and recovery assistance for websites."
+    },
+    {
+        "id": 18,
+        "name": "Custom Web App Development",
+        "price": 800,
+        "duration": "14 days",
+        "category": "Web Development",
+        "level": "Advanced",
+        "deliveryType": "One-time",
+        "idealFor": "Businesses needing specialized solutions",
+        "supportIncluded": true,
+        "features": [
+            "Custom features",
+            "Responsive design",
+            "Secure backend"
+        ],
+        "description": "Develop a web application tailored to specific business needs."
+    },
+    {
+        "id": 19,
+        "name": "Landing Page Optimization",
+        "price": 180,
+        "duration": "2 days",
+        "category": "Marketing",
+        "level": "Intermediate",
+        "deliveryType": "One-time",
+        "idealFor": "Campaigns or promotions",
+        "supportIncluded": true,
+        "features": [
+            "Conversion optimization",
+            "Responsive design",
+            "A/B testing suggestions"
+        ],
+        "description": "Optimize landing pages for higher conversions."
+    },
+    {
+        "id": 20,
+        "name": "Social Media Integration",
+        "price": 130,
+        "duration": "1 day",
+        "category": "Marketing",
+        "level": "Beginner",
+        "deliveryType": "One-time",
+        "idealFor": "Small businesses or personal brands",
+        "supportIncluded": false,
+        "features": [
+            "Social buttons",
+            "Share functionality",
+            "Analytics setup"
+        ],
+        "description": "Integrate social media platforms with your website."
     }
 ]
