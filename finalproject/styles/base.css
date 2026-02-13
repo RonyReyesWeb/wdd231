@@ -178,7 +178,7 @@ footer {
     text-align: center;
 }
 
-.titlecomparison {
+.center {
     text-align: center;
 }
 
@@ -215,4 +215,54 @@ footer {
 
 .solution h3 {
     color: black;
+}
+
+/* Form elements for contact */
+.contact-form label {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form input {
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-left: 7px solid #aeddc7;
+    box-sizing: border-box;
+}
+
+.contact-form select,
+.contact-form textarea {
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-left: 7px solid #fec0c7;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+}
+
+.contact-form button {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
 }

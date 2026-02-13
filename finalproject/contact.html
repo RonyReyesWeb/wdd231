@@ -51,13 +51,19 @@
 
     <main>
         <section>
-            <h2>Request a Quote o Service</h2>
-            <form id="service-form" method="get" action="formresponse.html">
-                <label>Name:</label>
-                <input type="text" name="fullname" required>
+            <div class="center">
+                <h2>Request a Quote or Service</h2>
+            </div>
+            <form id="service-form" class="contact-form" method="get" action="formresponse.html">
 
-                <label>Email:</label>
-                <input type="email" name="email" required>
+                <label for="fullname">Name:</label>
+                <input id="fullname" type="text" name="fullname" required>
+
+                <label for="phone">Phone:</label>
+                <input id="phone" type="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
 
                 <label for="service">Service Interested In:</label>
                 <select id="service" name="service" required>
@@ -68,13 +74,17 @@
                     <option value="consultation">Consultation & Quote</option>
                 </select>
 
-                <label>Details / Questions:<textarea name="message" required></textarea></label>
+                <label for="message">Details / Questions:</label>
+                <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Submit Request</button>
+                <div class="center">
+                    <button type="submit">Submit Request</button>
+                </div>
+
             </form>
 
-
         </section>
+
     </main>
 
     <footer>
