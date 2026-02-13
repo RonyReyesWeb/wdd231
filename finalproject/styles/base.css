@@ -266,3 +266,14 @@ footer {
 .contact-form button:hover {
     background-color: #45a049;
 }
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}

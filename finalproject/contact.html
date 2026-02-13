@@ -50,20 +50,26 @@
     </nav>
 
     <main>
-        <section>
+        <section class="contact-form ">
             <div class="center">
                 <h2>Request a Quote or Service</h2>
             </div>
             <form id="service-form" class="contact-form" method="get" action="formresponse.html">
 
-                <label for="fullname">Name:</label>
+                <label for="fullname">Full Name:</label>
                 <input id="fullname" type="text" name="fullname" required>
 
-                <label for="phone">Phone:</label>
-                <input id="phone" type="phone" name="phone" required>
+                <div class="two-cols">
+                    <div class="form-field">
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="tel" name="phone" required>
+                    </div>
 
-                <label for="email">Email:</label>
-                <input id="email" type="email" name="email" required>
+                    <div class="form-field">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+                </div>
 
                 <label for="service">Service Interested In:</label>
                 <select id="service" name="service" required>
