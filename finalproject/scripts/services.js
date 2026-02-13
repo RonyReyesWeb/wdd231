@@ -15,13 +15,14 @@ async function loadServices() {
             card.innerHTML = `
                 <h3>${service.name}</h3>
                 <p><strong>Category:</strong> ${service.category}</p>
-                <p><strong>Price:</strong> $${service.price}</p>
+                <p><strong>Description:</strong> ${service.description}</p>
                 <p><strong>Duration:</strong> ${service.duration}</p>
                 <button 
                     aria-label="View details for ${service.name}">
                     View Details
                 </button>
             `;
+
 
             card.querySelector('button').addEventListener('click', () => {
                 openModal(service);
