@@ -38,4 +38,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .service-card {
+        flex: 0 1 calc(50% - 20px);
+    }
 }

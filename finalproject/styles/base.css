@@ -277,3 +277,42 @@ footer {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+
+#services-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.service-card {
+    flex: 0 1 100%;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.service-card h3 {
+    color: black;
+}
+
+#service-modal {
+    flex: 0 1 100%;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+#service-modal h3 {
+    color: black;
+}
