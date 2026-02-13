@@ -316,3 +316,46 @@ footer {
 #service-modal h3 {
     color: black;
 }
+
+@media (max-width: 480px) {
+    .contact-form select {
+        width: 100%;
+        max-width: 320px;
+        margin-inline: auto;
+        font-size: 1rem;
+    }
+}
+
+.contact1 {
+    border-radius: 8px;
+    padding: 0.6rem;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-left: 7px solid #aeddc7;
+    color: black;
+}
+
+.contact2 {
+    border-radius: 8px;
+    padding: 0.6rem;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-left: 7px solid #fec0c7;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: #f8d7da;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #fec0c7;
+}
